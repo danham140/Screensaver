@@ -4,10 +4,8 @@ import javafx.animation.KeyFrame;
 import javafx.animation.KeyValue;
 import javafx.animation.Timeline;
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
 import javafx.scene.Group;
 import javafx.scene.Node;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.effect.BlendMode;
 import javafx.scene.effect.BoxBlur;
@@ -71,12 +69,11 @@ public class Main extends Application {
                     )
             );
         }
-// play 40s of animation
+        // play 40s of animation
         timeline.play();
 
         primaryStage.show();
     }
-
 
     public static void main(String[] args) {
         launch(args);
